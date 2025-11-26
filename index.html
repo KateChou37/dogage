@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1> 狗齡計算機 </h1>
+    
+    <div class="form-group">
+        <label for="birthday">請選擇狗狗的生日:</label>
+        <input type="date" id="birthday" name="birthday" required>
+    </div>
+    
+    <button id="calculate-btn">計算狗與人類年齡</button>
+
+    <div id="result-container" class="result-container hidden">
+        <div class="result-box">
+            <p>狗狗實際年齡 (歲):</p>
+            <h2 id="dog-age">0.00</h2>
+        </div>
+        <div class="result-box">
+            <p>相當於人類年齡 (歲):</p>
+            <h2 id="human-age">0.0</h2>
+        </div>
+    </div>
+
+    <div id="storage-status" class="storage-status hidden">
+        <p>上次計算結果已自動載入。</p>
+    </div>
+</div>
+</body>
+</html>
